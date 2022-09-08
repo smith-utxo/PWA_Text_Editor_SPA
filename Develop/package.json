@@ -1,15 +1,15 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start:dev": "",
-    "start": "",
+    "start": "npm run build && cd server && node server.js",
     "server": "",
-    "build": "",
+    "build": "cd client && npm run build",
     "install": "",
-    "client": ""
+    "client": "cd client && npm start"
   },
   "keywords": [],
   "author": "",
